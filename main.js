@@ -1,8 +1,8 @@
 /* Users can view the letters to type */
+var text = 'This is a typing test.'
 
-var typing = 'This is a Typing Test'
-
-var $test = document.createElement('h1')
-$test.textContent = typing
-
-document.body.appendChild($test)
+for (var i = 0; i < text.length; i++) {
+  var $letter = document.createElement('span')
+  $letter.textContent = text[i]
+  document.body.appendChild($letter)
+}
