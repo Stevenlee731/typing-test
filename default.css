@@ -1,0 +1,12 @@
+.current {
+  color: green;
+  font-size: 8rem;
+}
+
+.wrong {
+  color: red;
+}
+
+span {
+  font-size: 7rem;
+}
